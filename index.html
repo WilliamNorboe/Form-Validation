@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <div class = "popup">
+        <h2>Eneter info</h2>
+        <form>
+            <label for = "mail">Email: </label>
+            <input type ="text" id ="mail">
+            <span class="error" aria-live="polite"></span>
+
+            <label for = "country">Country: </label>
+            <input type ="text" id ="country">
+            <span class="error" aria-live="polite"></span>
+
+            <label for = "zip">Zip Code: </label>
+            <input type ="text" id ="zip">
+            <span class="error" aria-live="polite"></span>
+
+            <label for = "pass">Password: </label>
+            <input type ="password" id ="pass">
+            <span class="error" aria-live="polite"></span>
+
+            <label for = "conpass">Confirm Password: </label>
+            <input type ="password" id ="conpass">
+            <span class="error" aria-live="polite"></span>
+
+            <button id = "submit">Submit</button>
+        </form>
+    </div>
+    <script src = "valid.js"></script>
+</body>
+</html>
